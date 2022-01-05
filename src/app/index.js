@@ -1,15 +1,8 @@
 // alert('React goes here');
-
-import React, { Component } from 'react';
+import React from 'react';
 import { render } from 'react-dom';
+import App from './App';
 
-class App extends Component {
-    render(){
-        return (
-            <h1>Running from React s</h1>
-        )
-    }
-}
 
 render(<App/>, document.getElementById('app'));
 
